@@ -54,6 +54,29 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Proyecto: Cliente para API RESTful de Estudiantes
+
+Este es un sistema web desarrollado en Laravel que consume una API RESTful externa (desarrollada en clase anterior) para gestionar estudiantes.
+
+### Funcionalidades implementadas
+- ✅ GET: Listar todos los estudiantes
+- ✅ POST: Crear nuevo estudiante
+- ✅ PUT: Actualizar estudiante existente
+- ✅ DELETE: Eliminar estudiante
+- ✅ PATCH: Actualización parcial (extra)
+
+### Estructura del proyecto
+- Rutas: 1 archivo de rutas web
+- Controlador: 1 controlador (`StudentsController`)
+- Vistas:
+  - Crear estudiante (formulario + resultado en navegador)
+  - Editar estudiante (formulario + resultado en navegador)
+  - Listado de estudiantes (con acciones)
+  - Plantilla base (layout)
+- Servidores:
+  - Servidor de aplicación (cliente Laravel)
+  - Servidor de API (externo, consultado vía HTTP)
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
